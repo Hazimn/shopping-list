@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+:root {
+    /* Background */
+    --background-primary: #F4F5FB;
+    --background-secondary: #FFFFFF;
+
+    /* Color */
+    --color-brand: #CA3884;
+    --color-brand-hover: #A52C6B;
+    --color-danger: #C93847;
+
+    /* Content */
+    --content-primary: #080B12;
+    --content-secondary: #374151;
+    --content-tertiary: #9CA3AF;
+    --always-white: #FFFFFF;
+
+    /* Border */
+    --border-primary: #D1D5DB;
+    --border-hover: #B9C2D0;
+
+    /*font family*/
+    --font-family: 'Inter', sans-serif;
+
+    /*title*/
+    --font-title-size: 24px;
+    --font-title-line-height: 32px;
+    --font-title-weight: 700;
+
+    /*label*/
+    --font-label-size: 16px;
+    --font-label-line-height: 20px;
+    --font-label-weight: 600;
+
+    /*paragraph*/
+    --font-paragraph-size: 16px;
+    --font-paragraph-line-height: 20px;
+    --font-paragraph-weight: 500;
+    
+    /*link*/
+    --font-link-size: 14px;
+    --font-link-line-height: 16px;
+    --font-link-weight: 500;
+}
