@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font: inherit;
+    background-color: var(--background-primary)
 }
 
 :root {
@@ -41,7 +41,7 @@
     --font-paragraph-size: 16px;
     --font-paragraph-line-height: 20px;
     --font-paragraph-weight: 500;
-    
+
     /*link*/
     --font-link-size: 14px;
     --font-link-line-height: 16px;

@@ -1,0 +1,43 @@
+body {
+    display: flex;
+}
+
+.head {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+}
+
+.logo {
+    margin-top: 32px;
+    margin-bottom: 55px;
+}
+
+.arrow {
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: var(--font-link-weight);
+    font-size: var(--font-paragraph-size);
+    line-height: var(--font-link-line-height);
+    color: var(--color-brand)
+}
+
+.link-voltar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.compras {
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: var(--font-title-weight);
+    font-size: var(--font-title-size);
+    line-height: var(--font-title-line-height);
+    color: var(--content-primary);
+}

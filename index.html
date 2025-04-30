@@ -1,17 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Compras</title>
-    <link rel="stylesheet" href="./styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Compras</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-    <header>
-        <div class="head">
-        <img class="logo" src="./assets/logo/logo.png" alt="logo quicklist">
-        <img src="./assets/icons/arrow-left.svg" alt="">
+  <div class="head">
+    <img class="logo" src="./assets/logo/logo.png" alt="logo quicklist">
+    <div class="link-voltar">
+      <a class="arrow" href=""><img src="./assets/icons/arrow-left.svg" alt="">
+        <p class="voltar">voltar</p>
+      </a>
+      <h1 class="compras">Compras da semana</h1>
     </div>
-    </header>
+    <div class="initial-button">
+      <input type="text" placeholder="Adicione um novo item" class="add-new">
+      <button class="add-item"> Adicionar item </button>
+    </div>
+    <div class="list">
+      <div class="item">
+        <div>
+          <input type="checkbox" class="check">
+          <span>Pão de forma</span>
+        </div>
+        <button class="trash-can"><img src="./assets/icons/trash-can.svg" alt=""></button>
+      </div>
+      <div class="item">
+        <div>
+          <input type="checkbox" class="check">
+          <span>Café preto</span>
+        </div>
+        <button class="trash-can"><img src="./assets/icons/trash-can.svg" alt=""></button>
+      </div>
+      <div class="item">
+        <div>
+          <input type="checkbox" class="check">
+          <span>Suco de laranja</span>
+        </div>
+        <button class="trash-can"><img src="./assets/icons/trash-can.svg" alt=""></button>
+      </div>
+      <div class="item">
+        <div>
+          <input type="checkbox" class="check">
+          <span>Bolacha</span>
+        </div>
+        <button class="trash-can"><img src="./assets/icons/trash-can.svg" alt=""></button>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
+
 </html>
