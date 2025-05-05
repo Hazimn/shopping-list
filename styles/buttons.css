@@ -25,6 +25,7 @@ input {
     margin-top: 44px;
     margin-left: 16px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .add-new {
